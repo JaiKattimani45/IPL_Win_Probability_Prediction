@@ -13,28 +13,28 @@ The objective of the IPL win probability prediction project is to build a machin
 
 Workflow for the IPL win probability prediction project using the SDLC methodology
 
-- Planning
+- Planning: 
 Define project goals and objectives.
 Determine project scope.
 Identify project resources.
-- Analysis
+- Analysis: 
 Analyze data sources.
 Identify relevant data for prediction model.
 Determine key features and variables for the model.
-- Design
+- Design: 
 Design architecture of prediction model.
 Design algorithms and techniques for the model.
 Design user interface for the model.
-- Implementation
+- Implementation: 
 Implement the design of the prediction model using appropriate software tools and programming languages.
 Create and test the user interface for the model.
-- Testing
+- Testing: 
 Test the model to ensure it is accurate and reliable.
 Perform system testing to ensure the model is functioning properly.
-- Deployment
+- Deployment: 
 Deploy the model to a production environment.
 Make the model available for use by stakeholders.
-- Maintenance
+- Maintenance: 
 Monitor and maintain the model to ensure it continues to function accurately and efficiently.
 Make updates to the model as needed, based on new data or changes to the IPL tournament format.
 
