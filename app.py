@@ -28,11 +28,11 @@ st.image("![image](https://github.com/JaiKattimani45/IPL_Win_Probability_Predict
 col1, col2 = st.columns(2)
 
 with col1:
-    BattingTeam = st.selectbox('Select Batting Team', sorted(teams))
+    BattingTeam = st.selectbox('Batting Team', sorted(teams))
 with col2:
-    BowlingTeam = st.selectbox('Select Bowling Team', sorted(teams))
+    BowlingTeam = st.selectbox('Bowling Team', sorted(teams))
 
-selected_city = st.selectbox('Select Host City', sorted(cities))
+selected_city = st.selectbox('Select Venue', sorted(cities))
 
 target = st.number_input('Target')
 
@@ -45,7 +45,7 @@ with col4:
 with col5:
     wickets = st.number_input('Wickets')
 
-if st.button('Predict Win Probability'):
+if st.button('Predict'):
     runs_left = target - score
     balls_left = 120 - (overs * 6)
     wickets = 10 - wickets
