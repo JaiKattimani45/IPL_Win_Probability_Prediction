@@ -21,7 +21,9 @@ cities = ['Ahmedabad', 'Mumbai', 'Navi Mumbai', 'Pune', 'Dubai', 'Sharjah',
           'Port Elizabeth', 'Kimberley', 'East London', 'Cape Town']
 
 pipe = pickle.load(open('pipe.pkl', 'rb'))
+
 st.title('IPL Win Predictor')
+st.image("![image](https://github.com/JaiKattimani45/IPL_Win_Probability_Prediction/assets/110810509/ecbc4bc4-bc6e-4379-ba09-c23172a235e7)")
 
 col1, col2 = st.columns(2)
 
