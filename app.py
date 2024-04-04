@@ -23,7 +23,7 @@ cities = ['Ahmedabad', 'Mumbai', 'Navi Mumbai', 'Pune', 'Dubai', 'Sharjah',
 pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 st.title('IPL Win Predictor')
-st.image("![image](https://github.com/JaiKattimani45/IPL_Win_Probability_Prediction/assets/110810509/ecbc4bc4-bc6e-4379-ba09-c23172a235e7)")
+st.image("https://i1.wp.com/crickettimes.com/wp-content/uploads/2023/03/IPL-2023-broadcast-and-streaming-details-1260x657.jpg?strip=all")
 
 col1, col2 = st.columns(2)
 
